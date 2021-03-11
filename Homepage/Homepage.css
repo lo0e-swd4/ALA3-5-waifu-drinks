@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 /*desktop*/
 body{
     overflow-x: hidden;
@@ -17,6 +19,7 @@ body{
 .Logo{
     width: 300px;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 ul {
@@ -47,6 +50,7 @@ li, a {
 }
 
 p {
+    font-family: 'Nunito';
     text-align: center;
     font-size: 30px;
     margin-top: 1%;
@@ -107,9 +111,9 @@ h1 {
     background-color: rgba(0, 0, 0, 0.);
 }
 
-.Eventsimg {
+/*.Eventsimg {
     
-}
+}*/
 
 #EventImg1 {
     position: relative;
@@ -153,7 +157,7 @@ h1 {
    position: absolute;
    margin-top: 18%;
    margin-left: 37.8%;
-    height: 50px;
+    height: 100px;
     width: 396px;
     border: solid black 2px;
 }
@@ -162,7 +166,7 @@ h1 {
     position: absolute;
     margin-top: 18%;
     margin-left: 4.9%;
-    height: 50px;
+    height: 100px;
     width: 396px;
     border: solid black 2px;
 }
@@ -172,7 +176,7 @@ h1 {
     position: relative;
     float: right;
     width: 1540px;
-    height: 50px;
+    height: 100px;
     border: solid #00000040;
     background-color: #e18a81;
 }
@@ -193,5 +197,16 @@ h1 {
 
 /*Telefoon*/
 @media (min-width: 320px) and (max-width: 480px){
+
+.Navblock {
+    position: fixed;
+    width: 300px;
+    height: 1009px;
+    background-color: black;
+}
+.Slideshowimg {
+    display: none;
+}
+    
 
 }
