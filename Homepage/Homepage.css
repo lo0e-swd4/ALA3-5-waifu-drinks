@@ -1,0 +1,82 @@
+/*desktop*/
+body{
+    overflow-x: hidden;
+    padding: 0 auto;
+    margin: 0 auto; 
+}
+
+@media (min-width: 1281px){
+
+.Navblock {
+    position: fixed;
+    width: 300px;
+    height: 1009px;
+    background-color: black;
+}
+
+.Logo{
+    width: 300px;
+    margin-top: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li, a {
+    display: block;
+    color: white;
+    
+    padding: 4px 14px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.Offerblock {
+    position: relative;
+    float: right;
+    width: 1540px;
+    height: 60px;
+    border: solid #00000040;
+    background-color: #e18a81;
+    
+
+}
+
+.Slideshowblock {
+    position: relative;
+    height: 800px;
+    width: 1546px;
+    background-color: black;
+    float: right;
+}
+
+.Slideshowimg {
+  display: none;
+}
+
+.Events {
+    display: none;
+}
+
+}
+
+/*desktop laptop*/
+@media (min-width: 1025px) and (max-width: 1280px){
+
+}
+
+
+/*Ipad-tablet*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}
+
+
+/*Telefoon*/
+@media (min-width: 320px) and (max-width: 480px){
+
+}
