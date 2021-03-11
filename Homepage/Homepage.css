@@ -48,18 +48,109 @@ li, a {
 
 .Slideshowblock {
     position: relative;
+    float: right;
     height: 800px;
     width: 1546px;
     background-color: black;
-    float: right;
+    border-bottom: solid black 2px;
 }
 
 .Slideshowimg {
-  display: none;
+    position: relative;
+    float: right;
+    height: 800px;
+    width: 1546px;
+    
 }
 
 .Events {
-    display: none;
+    position: relative;
+    float: right;
+    
+    height: 180px;
+    width: 1546px;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.Eventshblock {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    width: 350px;
+    height: 70px;
+    background-color: white;
+    border: solid black 2px;
+
+}
+
+.Events2 {
+    position: relative;
+    float: right;
+    
+    height: 500px;
+    width: 1546px;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+.Eventsimg {
+    
+}
+
+#EventImg1 {
+    position: relative;
+    float: right;
+    height: 280px;
+    width: 400px;
+    margin-left: 7%;
+    margin-right: 3.5%;
+    background-color: black;
+}
+
+#EventImg2 {
+    position: relative;
+    float: right;
+    height: 280px;
+    width: 400px;
+    margin-left: 7%;
+    background-color: black;
+}
+
+#EventImg3 {
+    position: relative;
+    float: right;
+    height: 280px;
+    width: 400px;
+
+    background-color: black;
+}
+
+#Event1 {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 70.7%;
+    height: 50px;
+    width: 395px;
+    border: solid black 2px;
+    
+}
+
+#Event2 {
+   position: absolute;
+   margin-top: 18%;
+   margin-left: 38%;
+    height: 50px;
+    width: 395px;
+    border: solid black 2px;
+}
+
+#Event3 {
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    border: solid black 2px;
 }
 
 }
