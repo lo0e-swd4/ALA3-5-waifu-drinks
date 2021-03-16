@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+/* telefoon */
+@media screen and (min-width: 360px) and (max-width:740px){
+    #header1 img {
+        height: 70px;
+        position: relative;
+        left: 95px;
+        top: 5px;
+    }
+
+    header li {
+        display: none;
+    }
+
+    #nav2 {
+        color: black;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .blok {
+        display: none;
+    }
+
+    .blok2 {
+        background-color: #000000;
+        z-index: -2;
+        height: 11vh;
+        width: 100vw;
+        position: relative;
+        top: -75px;
+        left: -10px;
+    }
+
+    :root {
+        --primary-color: rgba(0, 0, 0, 0.75);
+        --overlay-color: rgba(0, 0, 0, 0.85);
+        --menu-speed: 0.75s;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.4;
+      }
+      
+      .container {
+        max-width: 700px;
+        margin: auto;
+        overflow: hidden;
+        padding: 0 3rem;
+      }
+      
+      .showcase {
+        background: var(--primary-color);
+        color: #fff;
+        height: 100vh;
+        position: relative;
+      }
+      
+      .showcase:before {
+        content: '';
+        background: url('https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      
+      .showcase .showcase-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+      }
+      
+      .showcase h1 {
+        font-size: 4rem;
+      }
+      
+      .showcase p {
+        font-size: 1.3rem;
+      }
+      
+      .btn {
+        display: inline-block;
+        border: none;
+        background: var(--primary-color);
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        margin-top: 1rem;
+        transition: opacity 1s ease-in-out;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        opacity: 0.7;
+      }
+      
+      /* MENU STYLES */
+      .menu-wrap {
+        position: relative;
+        top: -65px;
+        left: 0;
+        z-index: 1;
+      }
+      
+      .menu-wrap .toggler {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+      }
+      
+      .menu-wrap .hamburger {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 60px;
+        height: 60px;
+        padding: 1rem;
+        background: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      /* Hamburger Line */
+      .menu-wrap .hamburger > div {
+        position: relative;
+        flex: none;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s ease;
+      }
+      
+      /* Hamburger Lines - Top & Bottom */
+      .menu-wrap .hamburger > div::before,
+      .menu-wrap .hamburger > div::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: -10px;
+        width: 100%;
+        height: 2px;
+        background: inherit;
+      }
+      
+      /* Moves Line Down */
+      .menu-wrap .hamburger > div::after {
+        top: 10px;
+      }
+      
+      /* Toggler Animation */
+      .menu-wrap .toggler:checked + .hamburger > div {
+        transform: rotate(135deg);
+      }
+      
+      /* Turns Lines Into X */
+      .menu-wrap .toggler:checked + .hamburger > div:before,
+      .menu-wrap .toggler:checked + .hamburger > div:after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      
+      /* Rotate On Hover When Checked */
+      .menu-wrap .toggler:checked:hover + .hamburger > div {
+        transform: rotate(225deg);
+      }
+      
+      /* Show Menu */
+      .menu-wrap .toggler:checked ~ .menu {
+        visibility: visible;
+      }
+      
+      .menu-wrap .toggler:checked ~ .menu > div {
+        transform: scale(1);
+        transition-duration: var(--menu-speed);
+      }
+      
+      .menu-wrap .toggler:checked ~ .menu > div > div {
+        opacity: 1;
+        transition:  opacity 0.4s ease 0.4s;
+      }
+      
+      .menu-wrap .menu {
+        position: fixed;
+        top: 1;
+        left: -30;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .menu-wrap .menu > div {
+        background: var(--overlay-color);
+        border-radius: 50%;
+        position: relative;
+        left: -115px;
+        top: -120px;
+        width: 150vw;
+        height: 150vw;
+        display: flex;
+        flex: none;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0);
+        transition: all 0.4s ease;
+      }
+      
+      .menu-wrap .menu > div > div {
+        text-align: center;
+        max-width: 5vw;
+        max-height: 100vh;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+      
+      .menu-wrap .menu > div > div > ul > li {
+        list-style: none;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 1rem;
+      }
+      
+      .menu-wrap .menu > div > div > ul > li > a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.4s ease;
+      }
+    
+      video {
+          height:  196.5px;
+          position: relative;
+          top: -75px;
+      }
+
+      #Main_tekst p {
+          position: relative;
+          text-align: center;
+          justify-content: center;
+          left: -5px;
+          font-family: 'Nunito', sans-serif;
+          top: -30px;
+      }
+
+      #Main_tekst p1 {
+          position: relative;
+          text-align: center;
+          justify-content: center;
+          font-family: 'Nunito', sans-serif;
+          display: flex;
+          top: -20px;
+      }
+
+      #teamliquid img {
+        position: relative;
+        height: 90px;
+        left: 30px;
+      }
+
+      #teamliquid p {
+        position: relative;
+        font-family: 'Nunito', sans-serif;
+        font-size: 12.5px;
+        left: 125px;
+        bottom: 80px;
+      }
+
+      #FaZe img{
+        position: relative;
+        height: 70px;
+        left: 15px;
+      }
+
+      #FaZe p {
+        position: relative;
+        left: 125px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 12.5px;
+        bottom: 78px;
+      }
+
+      #Astralis img {
+        position: relative;
+        height: 90px;
+        left: 25px;
+      }
+
+      #Astralis p {
+        position: relative;
+        left: 125px;
+        font-family: 'Nunito', sans-serif;
+        bottom: 85px;
+        font-size: 12.5px;
+      }
+
+      #Cloud9 img {
+        height: 70px;
+        position: relative;
+        left: 15px;
+      }
+
+      #Cloud9 p {
+        position: relative;
+        font-family: 'Nunito', sans-serif;
+        bottom: 78px;
+        left: 125px;
+        font-size: 12.5px;
+      }
+
+      #Virtuspro img {
+        height: 90px;
+        position: relative;
+        left: 15px;
+      }
+
+      #Virtuspro p {
+        position: relative;
+        font-family: 'Nunito', sans-serif;
+        font-size: 12.5px;
+        left: 125px;
+        bottom: 85px;
+      }
+
+      #Navi img {
+        position: relative;
+        height: 90px;
+        left: 15px;
+      }
+
+      #Navi p {
+        position: relative;
+        font-family: 'Nunito', sans-serif;
+        font-size: 12.5px;
+        left: 125px;
+        bottom: 85px;
+      }
+      .blok4 {
+        height: 125vh;
+        width: 95vw;
+        position: absolute;
+        z-index: -2;
+        Border: 1px solid black;
+        left: 7px;
+        top: 500px;
+    }
+
+      .blokevent {
+        height: 5vh;
+        width: 97.2vw;
+        position: absolute;
+        z-index: -2;
+        left: 0px;
+        bottom: 425px;
+        background-color: #e18a81;
+    }
+
+      #blokeventtekst p {
+        position: relative;
+        left: 50px;
+        bottom: 230px;
+        font-family: 'Nunito', sans-serif;
+      }
+}
+/* Tablet */
+@media only screen and (max-width:1024px) and (min-width: 768px){
+    #item-burger {
+        display: none;
+    }
+
+    #header1 img {
+        height: 70px;
+        position: relative;
+        left: 2px;
+    }
+    
+    .blokevent {
+      height: 5vh;
+      width: 78vw;
+      position: absolute;
+      z-index: -2;
+      left: 178px;
+      bottom: 975px;
+      background-color: #e18a81;
+    } 
+
+    #blokeventtekst p {
+      position: relative;
+      left: 330px;
+      bottom: 800px;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .blok {
+        display: none;
+    }
+
+    .blok2 {
+        display: none;
+    }
+
+    .blok3 {
+        height: 150vh;
+        width: 30vw;
+        background-color: #000000;
+        position: absolute;
+        right: 590px;
+        z-index: -2;
+        bottom: -120px;
+    }
+
+    nav a { 
+        text-decoration: none;
+        padding: 0vh 2vw;
+        font-size: 1.5rem;
+        position: relative;
+        left: 1px;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        top: 1px;
+    }
+
+    nav a:hover {
+        background-color: #3d4d58;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    .menu-wrap {
+        display: none;
+    }
+
+    video {
+        height: 350px;
+        position: relative;
+        left: 170px;
+        bottom: 225px;
+        z-index: -3;
+    }  
+
+    #Main_tekst p {
+        position: relative;
+        left: 100px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        bottom: 240px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+    }
+
+    #Main_tekst p1 {
+        position: relative;
+        left: 270px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 15px;
+        font-family: 'Nunito', sans-serif;
+        max-width: 50vw;
+        bottom: 250px;
+    }
+
+    #teamliquid {
+        height: 0;
+    }
+    #teamliquid img {
+        position: relative;
+        height: 85px;
+        left: 240px;
+        bottom: 220px;
+    }
+
+    #teamliquid p {
+        position: relative;
+        left: 325px;
+        font-size: 11px;
+        font-family: 'Nunito', sans-serif;
+        bottom: 310px;
+        max-width: 20vw;
+    }   
+    #FaZe {
+        height: 0;
+    }
+    #FaZe img {
+        position: relative;
+        height: 65px;
+        left: 480px;
+        bottom: 200px;
+    }
+
+    #FaZe p {
+        position: relative;
+        left: 600px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 11px;
+        bottom: 290px;
+        max-width: 20vw;
+    }
+    #Astralis {
+        height: 0;
+    }
+    #Astralis img {
+        position: relative;
+        height: 80px;
+        left: 240px;
+        bottom: 80px;
+    }
+
+    #Astralis p {
+        position: relative;
+        left: 325px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 11px;
+        max-width: 20vw;
+        bottom: 175px;
+    }
+
+    #Cloud9 {
+        height: 0;
+    }
+    #Cloud9 img {
+        position: relative;
+        height: 70px;
+        left: 480px;
+        bottom: 70px;
+    }
+
+    #Cloud9 p {
+        position: relative;
+        left: 600px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 11px;
+        max-width: 20vw;
+        bottom: 160px;
+    }
+
+    #Virtuspro {
+        height: 0;
+    }
+
+    #Virtuspro img {
+        position: relative;
+        height: 85px;
+        left: 235px;
+        bottom: -70px;
+    }
+
+    #Virtuspro p {
+        position: relative;
+        left: 325px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 11px;
+        max-width: 20vw;
+        bottom: 25px;
+    }
+
+    #Navi {
+        height: 0;
+    }
+    #Navi img {
+        position: relative;
+        height: 70px;
+        left: 490px;
+        bottom: -70px;
+    }
+
+    #Navi p {
+        position: relative;
+        left: 600px;
+        bottom: 5px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 11px;
+        max-width: 20vw;
+    }
+
+    .blok4 {
+        height: 45vh;
+        width: 70vw;
+        position: absolute;
+        z-index: -2;
+        Border: 1px solid black;
+        left: 210px;
+        top: 550px;
+    }
+}
+/* Desktop*/
+@media only screen and (max-width:1600px) and (min-width: 1024px){
+    *   {
+        margin: 0 auto;
+        padding: 0 auto; 
+
+    }
+
+    #item-burger {
+        display: none;
+    }
+
+    #header1 img {
+        height: 100px;
+        position: relative;
+        top: 10px;
+    }
+
+    nav a { 
+        text-decoration: none;
+        padding: 0vh 2vw;
+        font-size: 1.5rem;
+        position: relative;
+        left: 20px;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        top: 20px;
+    }
+
+    nav a:hover {
+        background-color: #3d4d58;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    .blok{
+        height: 300vh;
+        width: 20vw;
+        background-color: #000000;
+        position: absolute;
+        right: 1350px;
+        z-index: -2;
+        bottom: -815px;
+    }
+
+    .blok2 {
+        display: none;
+    }
+
+    .menu-wrap {
+        display: none;
+    }
+
+    video {
+        position: relative;
+        left: 400px;
+        width: 1000px;
+        height: 1000px;
+        bottom: 478px;
+    }
+
+    #Main_tekst p {
+        position: relative;
+        left: 100px;
+        top: -700px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Nunito' , sans-serif;
+    }
+
+    #Main_tekst p1 {
+        position: relative;
+        left: 450px;
+        top: -675px;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Nunito' , sans-serif;
+        display: flex;
+    }
+
+    .blok4 {
+        height: 90vh;
+        width: 65vw;
+        position: absolute;
+        z-index: -2;
+        Border: 1px solid black;
+        left: 390px;
+        top: 800px;
+    }
+
+    #teamliquid {
+        height: 0;
+    }
+
+    #teamliquid img {
+        position: relative;
+        height: 100px;
+        left: 530px;
+        top: -500px;
+    }
+    
+    #teamliquid p {
+        position: relative;
+        left: 650px;
+        font-family: 'Nunito' , sans-serif;
+        top: -600px;
+    }
+
+    #FaZe {
+        height: 0;
+    }
+
+    #FaZe img{
+        position: relative;
+        height: 90px;
+        left: 960px;
+        top: -490px;
+    }
+
+    #FaZe p {
+        font-family: 'Nunito' , sans-serif;
+        position: relative;
+        left: 1110px;
+        top: -585px;
+    }
+
+    #Astralis img {
+        position: relative;
+        height: 90px;
+        left: 530px;
+        top: -305px;
+    }
+
+    #Astralis {
+        height: 0;
+    }
+
+    #Astralis p {
+        position: relative;
+        font-family: 'Nunito' , sans-serif;
+        left: 650px;
+        top: -400px;
+    }
+
+    #Cloud9 img {
+        position: relative;
+        height: 90px;
+        left: 970px;
+        top: -300px;
+    }
+
+    #Cloud9 {
+        height: 0;
+    }
+    #Cloud9 p {
+        position: relative;
+        font-family: 'Nunito' , sans-serif;
+        left: 1110px;
+        top: -399px;
+    }
+
+    #Virtuspro {
+        height: 0;
+    }
+
+    #Virtuspro img {
+        position: relative;
+        left: 525px;
+        height: 90px;
+        top: -110px;
+    }
+
+    #Virtuspro p {
+        position: relative;
+        font-family: 'Nunito';
+        left: 650px;
+        top: -200px;
+
+    }
+
+    #Navi {
+        height: 0;
+    }
+
+    #Navi img {
+        position: relative;
+        height: 90px;
+        left: 985px;
+        top: -100px;
+    }
+
+    #Navi p {
+        position: relative;
+        left: 1110px;
+        top: -190px;
+        font-family: 'Nunito' , sans-serif;
+
+    }
+
+    .blokevent {
+        height: 8vh;
+        width: 84.2vw;
+        position: absolute;
+        z-index: -2;
+        left: 233px;
+        bottom: 710px;
+        background-color: #e18a81;
+    }
+
+    #blokeventtekst {
+        height: 0;
+    }
+    #blokeventtekst p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        position: relative;
+        left: 100px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        bottom: 1370px;
+    }
+}
