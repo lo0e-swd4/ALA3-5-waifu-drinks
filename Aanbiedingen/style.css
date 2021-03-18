@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+header {
+    width: 25vw;
+    height: 100vh;
+    background-color: black;
+    list-style: none;
+    position: flex;
+    margin: 0vw;
+}
+header img{
+    width: 400px;
+    height: 250px;
+}
+header ul {
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+nav a { 
+    text-decoration: none;
+    padding: 0vh 2vw;
+    font-size: 1.5rem;
+    position: sticky;
+    left: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    top: 20px;
+}
+nav a:hover {
+    color: pink;
+}
+main {
+    position: flex;
+    
+}
+main img{
+    width: 1460px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+}
+#bar {
+    background-color: pink;
+    height: 50px;
+    width: 100%;
+}
+main h3 {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+}
+.aanbieding img{
+    width: 300px;
+    height: 200px;
+    object-fit: "fill";
+}
+.aanbieding {
+    text-align: center;
+    display: block;
+  }
+.aanbieding h4 {
+    font-size: 30px;
+}
+  .aanbieding-img {
+    background-color: rgba(236, 236, 236, 0.8);
+    padding: 6px 2px;
+
+  }
