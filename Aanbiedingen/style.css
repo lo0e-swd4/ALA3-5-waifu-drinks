@@ -59,36 +59,94 @@ main h3 {
 }
 #title{
     display: inline-block;
-    margin-left: 43%;
+    margin-left: 42%;
     margin-right: 30%;
-    padding: 1px 6px 1px;
+    margin-top: 1.5vh;
+    padding: 1px 9px 1px;
     text-align: center;
     border-radius: 54px;
     box-shadow: 0px 2px 7px grey;
     background: white;
     color: black;
     font-family: 'Nunito', sans-serif;
-    weight: 600;
+    font-weight: 600;
+    
 
 }
 .container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 40px;
+    column-gap: 10px;
+    padding: 50px;
+
 }
 .aanbieding img{
-    width: 300px;
+    width: 250px;
     height: 200px;
     object-fit: "fill";
+    align-items: center;
 }
 .aanbieding {
     text-align: center;
-    display: block;
+    display: grid;
     font-family: 'Nunito', sans-serif;
   }
+.aanbieding p{
+    padding: 10px;
+}
 .aanbieding h4 {
     font-size: 30px;
+    
 }
 .aanbieding-img {
-    background-color: rgba(236, 236, 236, 0.8);
+    background-color: rgba(236, 236, 236, 0.6);
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* mobiel */
+@media screen and (max-width: 768px) {
+    #bar {
+        background-color: pink;
+        height: 10px;
+        width: 70%;
+    }
+    main h3 {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+        padding: 50px;
+    
+    }
+    .aanbieding img{
+        width: 250px;
+        height: 200px;
+        object-fit: "fill";
+        align-items: center;
+    }
+    .aanbieding {
+        text-align: center;
+        display: grid;
+        font-family: 'Nunito', sans-serif;
+      }
+    .aanbieding p{
+        padding: 10px;
+    }
+    .aanbieding h4 {
+        font-size: 30px;
+        
+    }
+    .aanbieding-img {
+        background-color: rgba(236, 236, 236, 0.6);
+        width: 65%;
+        margin: auto;
+        padding: 20px;
+    }
 }
