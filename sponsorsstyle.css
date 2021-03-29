@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+/* telefoon */
+@media screen and (min-width: 360px) and (max-width:740px){
+
+}
+/* Tablet */
+@media only screen and (max-width:1024px) and (min-width: 768px){
+
+}
+/* Desktop*/
+@media only screen and (max-width:1440px) and (min-width: 900px){
+    *   {
+        margin: 0 auto;
+        padding: 0 auto; 
+
+    }
+
+    body{
+        display: flex;
+    }
+
+    header img{
+        width: 350px;
+        height: 200px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header {
+        width: 25vw;
+        height: 100vh;
+        background-color: black;
+        list-style: none;
+        position: flex;
+        margin: 0vw;
+    }
+
+    header ul {
+        list-style: none;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    nav a { 
+        text-decoration: none;
+        padding: 0vh 2vw;
+        font-size: 1.5rem;
+        position: sticky;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    nav a:hover {
+        color: pink;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    #aanbiedingtekst p {
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        background-color: pink;
+        width: 75vw;
+        font-size: 30px;
+        margin-top: -180px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    video {
+        display: flex;
+
+    }
+}

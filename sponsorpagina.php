@@ -7,23 +7,23 @@
     <meta name="author" content="Kevin Xue">
     <meta name="keywords" content=" ">
     <title>Sponsors Pagina</title>
-    <link rel="stylesheet" type="text/css" href="css/sponsorstyle.css"> 
+    <link rel="stylesheet" type="text/css" href="sponsorsstyle.css"> 
 
 </head>
 
 <body>
     <header>
-        <section id="header1">
             <a href="#"><img src="images/Logo_waifu_drinks_2.png" alt=""></a>
             <nav>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Smaken</a></li>
-                <li><a href="#">Aanbiedingen</a></li>
-                <li><a href="#">Sponsors</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Smaken</a></li>
+                    <li><a href="#">Aanbiedingen</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
-        </section>
     </header>
 
     <main>
@@ -44,4 +44,6 @@
         </section>
 
     </main>
-    
+
+</body>
+</html>
