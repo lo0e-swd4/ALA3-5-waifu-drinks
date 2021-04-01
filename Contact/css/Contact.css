@@ -15,16 +15,98 @@
 
     header {
       width: 25vw;
+      height: 100vh;
       color: white;
       background-color: black;
-      float: left:
+      list-style: none;
+      position: flex;
+      margin: 0vw;
+    }
+    .Logo{
+      width: 24vw;
+    }
+    a,li{
+
+    }
+    nav a{
+      text-decoration: none;
+      padding: 0vh 2vw;
+      font-size: 1.5rem;
+      position: sticky;
+      left: 20px;
+      color:white;
+      font-family:'Nunito',sans-serif
+      
+    }
+    nav a:hover {
+      color:pink;
     }
 
     main{
-      width: 25vw;
-      height: 100vh;
+      position: flex;
+    }
+    main img{
+      width: 1460px;
+      height: 450px;
+      object-fit: cover;
+      align-items: center;
+      z-index: -1;
     }
 
+    main h3 {
+      flex-wrap:wrap;
+      text-align: center;
+      padding: 15px;
+    }
+    .Offerblock{
+      text-align:center;
+      background-color: pink;
+    }
+
+    .wallpaper h1 {
+      display: inline-block;
+      margin-top: -50vh;
+    }
+    .Title{
+      display: inline-block;
+      padding-top: 10vh;
+      margin-bottom: 5vh;
+      margin-left: 55vh;
+      padding: 1px 9px 1px;
+      border-radius: 54px;
+      box-shadow: 0px 2px 7px grey;
+      text-align: center;
+      background: white;
+      color: black;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      justify-content: center;
+      align-items: center;
+    }
+    .naam{
+      text-decoration: none;
+      padding: 0vh 2vw;
+      font-size: 1.5rem;
+      position: sticky;
+      left: 20px;
+      font-family:'Nunito',sans-serif
+    }
+    .email{
+      text-decoration: none;
+      padding: 0vh 2vw;
+      font-size: 1.5rem;
+      position: sticky;
+      left: 20px;
+      font-family:'Nunito',sans-serif
+    }
+    .telefoon{
+      text-decoration: none;
+      padding: 0vh 2vw;
+      font-size: 1.5rem;
+      position: sticky;
+      left: 20px;
+      font-family:'Nunito',sans-serif
+    }
 }
 
 /* Tablet */
