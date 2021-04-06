@@ -25,9 +25,7 @@
     .Logo{
       width: 24vw;
     }
-    a,li{
 
-    }
     nav a{
       text-decoration: none;
       padding: 0vh 2vw;
@@ -36,7 +34,7 @@
       left: 20px;
       color:white;
       font-family:'Nunito',sans-serif
-      
+
     }
     nav a:hover {
       color:pink;
@@ -71,7 +69,7 @@
       display: inline-block;
       padding-top: 10vh;
       margin-bottom: 5vh;
-      margin-left: 80vh;
+      margin-left: 50vh;
       padding: 1px 9px 1px;
       border-radius: 54px;
       box-shadow: 0px 2px 7px grey;
@@ -88,37 +86,41 @@
       padding: 0vh 2vw;
       font-size: 1.0rem;
       position: sticky;
-      font-family:'Nunito',sans-serif
+      font-family:'Nunito',sans-serif;
     }
     .email{
       text-decoration: none;
       padding: 0vh 2vw;
       font-size: 1.0rem;
       position: sticky;
-      font-family:'Nunito',sans-serif
+      font-family:'Nunito',sans-serif;
     }
     .telefoon{
       text-decoration: none;
       padding: 0vh 2vw;
       font-size: 1.0rem;
       position: sticky;
-      font-family:'Nunito',sans-serif
+      font-family:'Nunito',sans-serif;
     }
     .buttons{
-      left: -20px;
+      decoration: none;
+      padding: 0vh 2vw;
+      position: sticky;
+      font-size: 'Nunito',sans-serif;
     }
     .Button{
       text-decoration: none;
       padding: 0vh 2vw;
       position: sticky;
-      font-family: 'Nunito',sans-serif
+      font-family: 'Nunito',sans-serif;
     }
+
     .bericht{
       text-decoration: none;
       padding: 0vh 2vw;
       position: sticky;
       font-family: 'Nunito',sans-serif;
-      
+
     }
 }
 
