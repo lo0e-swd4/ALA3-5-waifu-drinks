@@ -27,7 +27,6 @@
                 </section>
                 
                 <section id="navbar-small">
-
                 <details>
                 <summary><h1>☰</h1></summary>
                 <nav id="item-nav">
