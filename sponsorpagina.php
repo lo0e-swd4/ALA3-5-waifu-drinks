@@ -12,19 +12,39 @@
 </head>
 
 <body>
-    <header>
-            <a href="#"><img src="images/Logo_waifu_drinks_2.png" alt=""></a>
+    <header id="nav-bar">
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Smaken</a></li>
-                    <li><a href="#">Aanbiedingen</a></li>
-                    <li><a href="#">Sponsors</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <a href="#"><img src="images/Logo_waifu_drinks_2.png" alt=""></a>
+                <section id="navbar">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Smaken</a></li>
+                            <li><a href="#">Aanbiedingen</a></li>
+                            <li><a href="#">Sponsors</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                </section>
+                
+                <section id="navbar-small">
+
+                <details>
+                <summary><h1>☰</h1></summary>
+                <nav id="item-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Smaken</a></li>
+                            <li><a href="#">Aanbiedingen</a></li>
+                            <li><a href="#">Sponsors</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </details>
+                </section>
             </nav>
     </header>
+
 
     <main>
         <section id="aanbiedingtekst">
@@ -43,6 +63,7 @@
                 naast alle spelers over de hele wereld.</p>
         </section>
 
+        <section id="border">
         <section class="grid-container">
                 <article class="teamliquid">
                     <img src="images/1200px-Team_Liquid_logo.svg.png">
@@ -75,7 +96,7 @@
                     <p><b>Natus Vincere</b><br>Counter-strike GlobalOffensive<br><br>navi.gg</p>
                 </article>
         </section>
-
+        </section>  
     </main>
 
 </body>

@@ -2,11 +2,234 @@
 
 /* telefoon */
 @media screen and (min-width: 360px) and (max-width:740px){
+    * {
+        padding: 0 auto;
+    }
 
+    body {
+        margin: 0 auto;
+        display: collumn;
+    }
+
+    #nav-bar img {
+        height: 100px;
+        align-items: center;
+        margin-left: 90px;
+        display: flex;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #navbar-small{
+        color: black;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 4vw;
+        margin-bottom: 10vh;
+        text-align: right;
+        position: relative;
+        list-style: none;
+        margin-top: -20vh;
+        z-index: 2;
+    }
+    #navbar-small h1{
+        color: #07d1e3;
+        font-size: 3rem;
+        margin-bottom: 1vh;
+    }
+    #navbar-small ul li{
+        background-color: black;
+        text-align: center;
+        font-size: 1.5rem;
+        height: 5vh;
+        list-style: none;
+        width: 48vw;
+    }
+    #nav-bar img{
+        height: 15vh;
+        position: relative;
+        left: -10vw;
+    }
+    header{
+        background-color: black;
+        height: 17vh;
+    }
+    .opacity{
+        background-color: #0a1644;
+        opacity: 50%;
+        height: 105vh;
+        width: 105vw;
+        z-index: -1;
+    }
+    a:link, a:visited{
+        color: #07d1e3;
+        text-decoration: none;
+    }
+    #navbar{
+        display: none;
+    }
+      
+    #aanbiedingtekst {
+        background-color: pink;
+        max-height: 4vh;
+    }
+
+    #aanbiedingtekst p {
+        display: flex;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -10px;
+        margin-bottom: -1px;
+    }
+
+    video {
+        height: 202px;
+    }
+
+    #maininfo p {
+        display: flex;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #border {
+        border: 1px solid black;
+        margin: 3px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: .5fr .5fr;
+        max-width: 70vw;
+        width: 60vw;
+        align-items: center;
+        justify-content: center;
+        margin-left: 75px;
+    }
+
+    .grid-container article {
+        display: grid;
+        grid-template-columns: .5fr 1.5fr;
+        margin: 5px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    .grid-container img{
+        height: 55px;
+        width: 55px;
+    }
 }
 /* Tablet */
 @media only screen and (max-width:1024px) and (min-width: 768px){
+    *   {
+        padding: 0 auto; 
+    }
 
+    body{
+        margin: 0 auto;
+        display: flex;
+    }
+
+    header img{
+        width: 200px;
+        height: 100px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 8px;
+    }
+
+    header {
+        width: 30vw;
+        height: 130vh;
+        background-color: black;
+        list-style: none;
+        position: flex;
+        margin: 0vw;
+    }
+
+    header ul {
+        list-style: none;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    nav a { 
+        text-decoration: none;
+        padding: 0vh 2vw;
+        font-size: 1.5rem;
+        position: sticky;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    nav a:hover {
+        color: pink;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    #aanbiedingtekst p {
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        background-color: pink;
+        width: 72vw;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    main {
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    video {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 310px;
+        margin-top: -30px;
+    }
+
+    #maininfo p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 25px;
+        margin-top: 60px;
+        width: 70vw;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100vw;
+        width: 60vw;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        margin-left: 5vw;
+    }
+
+    .grid-container article {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin: 10px;
+        text-align: left;
+    }
+    .grid-container img{
+        height: 100px;
+        width: 100px;
+    }
 }
 /* Desktop*/
 @media only screen and (max-width:1440px) and (min-width: 900px){
