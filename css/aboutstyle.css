@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+/* telefoon */
+@media screen and (min-width: 360px) and (max-width:740px){
+    * {
+        padding: 0 auto;
+    }
+
+    body {
+        margin: 0 auto;
+        display: collumn;
+    }
+
+    #nav-bar img {
+        height: 100px;
+        align-items: center;
+        margin-left: 90px;
+        display: flex;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #navbar-small{
+        color: black;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 4vw;
+        margin-bottom: 10vh;
+        text-align: right;
+        position: relative;
+        list-style: none;
+        margin-top: -20vh;
+        z-index: 2;
+    }
+    #navbar-small h1{
+        color: #07d1e3;
+        font-size: 3rem;
+        margin-bottom: 1vh;
+    }
+    #navbar-small ul li{
+        background-color: black;
+        text-align: center;
+        font-size: 1.5rem;
+        height: 5vh;
+        list-style: none;
+        width: 48vw;
+    }
+    #nav-bar img{
+        height: 15vh;
+        position: relative;
+        left: -10vw;
+    }
+    header{
+        background-color: black;
+        height: 17vh;
+    }
+    .opacity{
+        background-color: #0a1644;
+        opacity: 50%;
+        height: 105vh;
+        width: 105vw;
+        z-index: -1;
+    }
+    a:link, a:visited{
+        color: #07d1e3;
+        text-decoration: none;
+    }
+    #navbar{
+        display: none;
+    }
+
+    #maininfo img {
+        height: 150px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    #maininfo p {
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    #maininfo2 img {
+        height: 250px;
+        width: 350px;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (max-width:1024px) and (min-width: 768px){
+    *   {
+        padding: 0 auto; 
+    }
+
+    body{
+        margin: 0 auto;
+        display: flex;
+    }
+
+    header img{
+        width: 200px;
+        height: 100px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    header {
+        width: 30vw;
+        height: 115vh;
+        background-color: black;
+        list-style: none;
+        position: flex;
+        margin: 0vw;
+    }
+
+    header ul {
+        list-style: none;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    nav a { 
+        text-decoration: none;
+        padding: 0vh 2vw;
+        font-size: 1.5rem;
+        position: sticky;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    nav a:hover {
+        color: pink;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    #maininfo img {
+        display: flex;
+        justify-content: center;
+        height: 250px;
+    }
+
+    #maininfo p {
+        display: collumn;
+        text-align: center;
+    }
+
+    #maininfo2 p{
+        margin-left: 100px;
+        max-width: 50vw;
+        display: collumn;
+        justify-content: center; 
+    }
+    #maininfo2 img {
+        height: 330px;
+    }
+}
+
+/* Desktop*/
+@media only screen and (max-width:1440px) and (min-width: 900px){
+    *   {
+        padding: 0 auto; 
+    }
+
+    body{
+        margin: 0 auto;
+        display: flex;
+    }
+
+    header img{
+        width: 350px;
+        height: 200px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header {
+        width: 25vw;
+        height: 155vh;
+        background-color: black;
+        list-style: none;
+        position: flex;
+        margin: 0vw;
+    }
+
+    header ul {
+        list-style: none;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    nav a { 
+        text-decoration: none;
+        padding: 0vh 2vw;
+        font-size: 1.5rem;
+        position: sticky;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    nav a:hover {
+        color: pink;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    #maininfo img {
+        display: flex;
+        justify-content: center;
+        margin-left: 170px;
+    }
+
+    #maininfo p {
+        display: collumn;
+        text-align: center;
+    }
+
+    #maininfo2 p{
+        margin-left: 150px;
+        max-width: 50vw;
+        display: collumn;
+        justify-content: center;
+        
+    }
+}
