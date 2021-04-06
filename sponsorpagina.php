@@ -7,7 +7,7 @@
     <meta name="author" content="Kevin Xue">
     <meta name="keywords" content=" ">
     <title>Sponsors Pagina</title>
-    <link rel="stylesheet" type="text/css" href="sponsorsstyle.css"> 
+    <link rel="stylesheet" type="text/css" href="css/sponsorsstyle.css"> 
 
 </head>
 
@@ -41,6 +41,39 @@
                 energiedranken die Waifudrinks deelt met esports-professionals.<br>
                 We zijn trots en vereerd om de beste spelers te ondersteunen, 
                 naast alle spelers over de hele wereld.</p>
+        </section>
+
+        <section class="grid-container">
+                <article class="teamliquid">
+                    <img src="images/1200px-Team_Liquid_logo.svg.png">
+                    <p><b>Team Liquid</b><br>Counter-strike GlobalOffensive<br><br>Teamliquid.com</p>
+                </article>
+                
+
+                <article class="faze">
+                    <img src="images/Faze_Clan (1).svg">
+                    <p><b>FaZe</b><br>Fortnite<br><br>fazeclan.com</p>
+                </article>
+                
+                <article class="astralis">
+                    <img src="images/Astralis_logo.svg (1).png">
+                    <p><b>Astralis</b><br>League of Legends<br><br>Astralis.gg</p>
+                </article>
+
+                <article class="cloud9">
+                    <img src="images/1200px-Cloud9_logo.svg.png">
+                    <p><b>Cloud9</b><br>Counter-strike GlobalOffensive<br><br>cloud9.gg</p>
+                </article>
+
+                <article class="virtuspro">
+                    <img src="images/Virtus_pro_logo_new (1).png">
+                    <p><b>Virtus Pro</b><br>Dota 2<br><br>Virtuspro.gg</p>
+                </article>
+
+                <article class="navi">
+                    <img src="images/1200px-NaVi_logo.svg (1).png">
+                    <p><b>Natus Vincere</b><br>Counter-strike GlobalOffensive<br><br>navi.gg</p>
+                </article>
         </section>
 
     </main>
