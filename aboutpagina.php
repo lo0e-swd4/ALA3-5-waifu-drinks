@@ -20,8 +20,8 @@
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Smaken</a></li>
                             <li><a href="#">Aanbiedingen</a></li>
-                            <li><a href="#">Sponsors</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="sponsorpagina.php">Sponsors</a></li>
+                            <li><a href="aboutpagina.php">About</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                 </section>
@@ -35,8 +35,8 @@
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Smaken</a></li>
                             <li><a href="#">Aanbiedingen</a></li>
-                            <li><a href="#">Sponsors</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="sponsorpagina.php">Sponsors</a></li>
+                            <li><a href="aboutpagina.php">About</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>
