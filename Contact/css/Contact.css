@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+/* Desktop*/
+@media only screen and (max-width:1440px) and (min-width: 900px){
+
+  body {
+  display: flex;
+  }
+
+  header {
+    width: 25vw;
+    height: 120vh;
+    color: white;
+    background-color: black;
+    list-style: none;
+    margin: 0vw;
+  }
+
+  .Logo{
+    width: 24vw;
+  }
+
+  nav a{
+    text-decoration: none;
+    padding: 0vh 2vw;
+    font-size: 1.5rem;
+    position: sticky;
+    left: 20px;
+    color:white;
+    font-family:'Nunito',sans-serif
+
+  }
+  nav a:hover {
+    color:pink;
+  }
+
+  main{
+    position: flex;
+  }
+  main img{
+    width: 1460px;
+    height: 450px;
+    object-fit: cover;
+    align-items: center;
+    z-index: -1;
+  }
+
+  main h3 {
+    flex-wrap:wrap;
+    text-align: center;
+    padding: 15px;
+  }
+  .Offerblock{
+    text-align:center;
+    background-color: pink;
+  }
+
+  .wallpaper  {
+    width: 75vw;
+
+
+  }
+  .Title{
+    text-align: center;
+    padding-top: 10vh;
+    margin-bottom: 5vh;
+    padding: 1px 9px 1px;
+    border-radius: 54px;
+    box-shadow: 0px 2px 7px grey;
+    background: white;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+  }
+  .naam{
+    text-decoration: none;
+    padding: 0vh 2vw;
+    font-size: 1.0rem;
+    position: sticky;
+    font-family:'Nunito',sans-serif;
+  }
+  .email{
+    text-decoration: none;
+    padding: 0vh 2vw;
+    font-size: 1.0rem;
+    position: sticky;
+    font-family:'Nunito',sans-serif;
+  }
+  .telefoon{
+    text-decoration: none;
+    padding: 0vh 2vw;
+    font-size: 1.0rem;
+    position: sticky;
+    font-family:'Nunito',sans-serif;
+  }
+  .buttons{
+    decoration: none;
+    padding: 0vh 2vw;
+    position: sticky;
+    font-size: 'Nunito',sans-serif;
+  }
+  .Button{
+    text-decoration: none;
+    padding: 0vh 2vw;
+    position: sticky;
+    font-family: 'Nunito',sans-serif;
+  }
+
+  .bericht{
+    text-decoration: none;
+    padding: 0vh 2vw;
+    position: sticky;
+    font-family: 'Nunito',sans-serif;
+
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width:1024px) and (min-width: 768px){
+body {
+    display: flex;
+}
+
+header{
+  width: 25vw;
+  color: white;
+  background-color: black;
+}
+
+.Logo{
+  width: 24vw;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  font-size: 1.5rem;
+  position: sticky;
+  left: 20px;
+  color:white;
+  font-family:'Nunito',sans-serif
+
+}
+nav a:hover {
+  color:pink;
+}
+
+main{
+  width: 75vw;
+  height: 147vh;
+}
+
+.Offerblock{
+  text-align:center;
+  background-color: pink;
+}
+
+.wallpaper {
+  width: 75vw;
+
+}
+
+.Title{
+
+  text-align: center;
+  padding-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 1px 9px 1px;
+  border-radius: 54px;
+  box-shadow: 0px 2px 7px grey;
+  background: white;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  justify-content: center;
+
+}
+.naam{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  font-size: 1.0rem;
+  position: sticky;
+  font-family:'Nunito',sans-serif;
+}
+.email{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  font-size: 1.0rem;
+  position: sticky;
+  font-family:'Nunito',sans-serif;
+}
+.telefoon{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  font-size: 1.0rem;
+  position: sticky;
+  font-family:'Nunito',sans-serif;
+}
+.buttons{
+  decoration: none;
+  padding: 0vh 2vw;
+  position: sticky;
+  font-size: 'Nunito',sans-serif;
+}
+.Button{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  position: sticky;
+  font-family: 'Nunito',sans-serif;
+}
+}
+/* telefoon */
+@media screen and (min-width: 360px) and (max-width:740px){
+  body {
+
+      }
+
+      li, a {
+          display: none;
+          font-weight: 500;
+          font-size: 15px;
+          color: rgb(207, 207, 207);
+          text-decoration: none;
+      }
+
+      header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 10%;
+
+
+          background-color: black;
+      }
+      .Logo {
+
+          width: 50vw;
+
+      }
+
+      main{
+           width: 100vw;
+
+      }
+
+nav a:hover {
+  color:pink;
+}
+
+
+.Offerblock{
+  text-align:center;
+  background-color: pink;
+}
+
+.wallpaper h1 {
+  display: inline-block;
+  margin-top: -50vh;
+}
+
+.Title{
+
+  text-align: center;
+  padding-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 1px 9px 1px;
+  border-radius: 54px;
+  box-shadow: 0px 2px 7px grey;
+  background: white;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  justify-content: center;
+
+}
+
+.naam{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  font-size: 1.0rem;
+  position: sticky;
+  font-family:'Nunito',sans-serif;
+}
+.email{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  font-size: 1.0rem;
+  position: sticky;
+  font-family:'Nunito',sans-serif;
+}
+.telefoon{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  font-size: 1.0rem;
+  position: sticky;
+  font-family:'Nunito',sans-serif;
+}
+.buttons{
+  decoration: none;
+  padding: 0vh 2vw;
+  position: sticky;
+  font-size: 'Nunito',sans-serif;
+}
+.Button{
+  text-decoration: none;
+  padding: 0vh 2vw;
+  position: sticky;
+  font-family: 'Nunito',sans-serif;
+}
+}
