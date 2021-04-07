@@ -58,7 +58,6 @@ main h3 {
 #title{
     text-align: center;
     padding-top: 10vh;
-    margin-bottom: 5vh;
     padding: 1px 9px 1px;
     border-radius: 54px;
     box-shadow: 0px 2px 7px grey;
@@ -138,14 +137,14 @@ main h3 {
     }
     #title{
         text-align: center;
-        margin-bottom: 5vh;
+        padding-top: 10vh;
         padding: 1px 9px 1px;
         border-radius: 54px;
         box-shadow: 0px 2px 7px grey;
         background: white;
-        color: black;
         font-family: 'Nunito', sans-serif;
         justify-content: center;
+        margin-left: 3vw;
       }
     .container {
         display: grid;
