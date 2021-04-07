@@ -116,6 +116,32 @@ main h3 {
         display: none;
     }
 
+    #navbar-small{
+        color: black;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 4vw;
+        margin-bottom: 10vh;
+        text-align: right;
+        position: relative;
+        list-style: none;
+        margin-top: -20vh;
+        z-index: 2;
+    }
+    #navbar-small h1{
+        color: #07d1e3;
+        font-size: 3rem;
+        margin-bottom: 1vh;
+    }
+    #navbar-small ul li{
+        background-color: black;
+        text-align: center;
+        font-size: 1.5rem;
+        height: 5vh;
+        list-style: none;
+        width: 48vw;
+    }
+
     main {
         position: flex;
         
