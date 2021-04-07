@@ -8,15 +8,14 @@ body {
 }
 header {
     width: 25vw;
-    height: 200vh;
+    height: 100vh;
     background-color: black;
     list-style: none;
     position: flex;
     margin: 0vw;
 }
 header img{
-    width: 400px;
-    height: 250px;
+    width: 24vw;
 }
 header ul {
     list-style: none;
@@ -38,11 +37,10 @@ nav a:hover {
     color: pink;
 }
 main {
-    position: flex;
-    
+    width: 75vw;
 }
 main img{
-    width: 1460px;
+    width: 1080px;
     height: 250px;
     object-fit: cover;
     align-items: center;
@@ -58,18 +56,17 @@ main h3 {
     padding: 15px;
 }
 #title{
-    display: inline-block;
+    text-align: center;
+    padding-top: 10vh;
+    margin-bottom: 5vh;
     padding: 1px 9px 1px;
-    align-items: center;
     border-radius: 54px;
     box-shadow: 0px 2px 7px grey;
     background: white;
     color: black;
     font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    
-
-}
+    justify-content: center;
+  }
 .container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -97,12 +94,12 @@ main h3 {
 }
 .aanbieding-img {
     background-color: rgba(236, 236, 236, 0.6);
-    width: 65%;
+    width: 80%;
     padding: 20px;
 }
 
 /* mobiel */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 740px) {
     * {
     margin: 0;
 }
@@ -132,7 +129,7 @@ main h3 {
     #bar {
         background-color: pink;
         height: 45px;
-        width: 100%;
+        width: 100vw;
     }
     main h3 {
         flex-wrap: wrap;
@@ -140,16 +137,16 @@ main h3 {
         padding: 12px;
     }
     #title{
-        display: flex;
-        justify-content: center;
+        text-align: center;
+        margin-bottom: 5vh;
+        padding: 1px 9px 1px;
         border-radius: 54px;
         box-shadow: 0px 2px 7px grey;
         background: white;
         color: black;
         font-family: 'Nunito', sans-serif;
-        font-weight: 300;
-        font-size: 20%;
-    }
+        justify-content: center;
+      }
     .container {
         display: grid;
         grid-template-columns: auto;
