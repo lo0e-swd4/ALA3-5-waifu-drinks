@@ -151,7 +151,7 @@ body {
     main{
          width: 75vw;
          height: 147vh;
-         background-color: rgb(122, 122, 122);
+        
     }
 
     a,li {
@@ -277,7 +277,7 @@ body {
     }
  
     main{
-        margin-top: 10%;
+       
          width: 100vw;
          
     }
