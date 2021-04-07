@@ -17,7 +17,7 @@
                   <a class="Hoofdnav" href="homepagina.php"><li>Home</li></a>
                   <a class="Hoofdnav" href="#"><li>Aandbiedingen</li></a>
                   <a class="Hoofdnav" href="sponsorpagina.php"><li>Sponsors</li></a>
-                  <a class="Hoofdnav" href="#"><li>Contact</li></a>
+                  <a class="Hoofdnav" href="contactpagina.php"><li>Contact</li></a>
                   <a class="Hoofdnav" href="aboutpagina.php"><li>About</li></a>
           </nav>
     </header>

@@ -8,7 +8,6 @@
     <meta name="keywords" content=" ">
     <title>Sponsors Pagina</title>
     <link rel="stylesheet" type="text/css" href="css/sponsorsstyle.css"> 
-
 </head>
 
 <body>
@@ -46,27 +45,23 @@
             <section id="aanbiedingtekst">
                 <p><b>1+1 Free new offer ends 10:00:00:00</b></p>
             </section>
-
             <section id="maininfo">
                 <video autoplay muted loop>
                     <source src="images/5gQwb.daa.1.webm">
                 </video>
-                
                 <p><b>WE'RE ALL GAMERS</b></p>
                 <p>Een toewijding aan topprestaties en het verbeteren van het spel zijn 
                     energiedranken die Waifudrinks deelt met esports-professionals.<br>
                     We zijn trots en vereerd om de beste spelers te ondersteunen, 
                     naast alle spelers over de hele wereld.</p>
             </section>
-
-        <section id="border">
+            <section id="border">
             <section class="grid-container">
                     <article class="teamliquid">
                         <img src="images/1200px-Team_Liquid_logo.svg.png">
                         <p><b>Team Liquid</b><br>Counter-strike GlobalOffensive<br><br>Teamliquid.com</p>
                     </article>
                     
-
                     <article class="faze">
                         <img src="images/Faze_Clan (1).svg">
                         <p><b>FaZe</b><br>Fortnite<br><br>fazeclan.com</p>
@@ -92,8 +87,7 @@
                         <p><b>Natus Vincere</b><br>Counter-strike GlobalOffensive<br><br>navi.gg</p>
                     </article>
             </section>
-        </section>  
+            </section>  
     </main>
-
 </body>
 </html>
