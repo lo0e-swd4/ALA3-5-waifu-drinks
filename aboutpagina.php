@@ -17,12 +17,11 @@
             <a href="#"><img src="images/Logo_waifu_drinks_2.png" alt=""></a>
                 <section id="navbar">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Smaken</a></li>
+                            <li><a href="homepagina.php">Home</a></li>
                             <li><a href="#">Aanbiedingen</a></li>
                             <li><a href="sponsorpagina.php">Sponsors</a></li>
                             <li><a href="aboutpagina.php">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="contactpagina.php">Contact</a></li>
                         </ul>
                 </section>
                 

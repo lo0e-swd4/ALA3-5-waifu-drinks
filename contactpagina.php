@@ -14,9 +14,7 @@
     <header>
         <img src="images/Logo waifu drinks.png" class="Logo">
           <nav>
-              <a class="Hoofdnav" href="#home"><li>Home</li></a>
-                  <a class="Hoofdnav" href="#"><li>Events</li></a>
-                  <a class="Hoofdnav" href="#"><li>Drinks</li></a>
+                  <a class="Hoofdnav" href="homepagina.php"><li>Home</li></a>
                   <a class="Hoofdnav" href="#"><li>Aandbiedingen</li></a>
                   <a class="Hoofdnav" href="sponsorpagina.php"><li>Sponsors</li></a>
                   <a class="Hoofdnav" href="#"><li>Contact</li></a>
